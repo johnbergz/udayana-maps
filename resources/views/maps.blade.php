@@ -6,7 +6,7 @@
     <title>Universitas Udayana Maps</title>
     
     {{-- Google Maps API Script --}}
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvcv6V80SyLAWAGWQjzfq1I6-EXDyPl_s"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=${{ secret.API_KEY }}"></script>
     
     {{-- Leaflet CSS and JS --}}
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
